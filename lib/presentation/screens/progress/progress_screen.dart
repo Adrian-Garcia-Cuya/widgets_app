@@ -46,7 +46,7 @@ class _ControlledProgressIndicator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return StreamBuilder(
+    return StreamBuilder( //todo: duda sobre como funciona este widget con el que retorna.
       stream: Stream.periodic( const Duration( milliseconds: 300 ), (value) {
         return (value * 2) / 100;
       }).takeWhile((value) => value < 100),
