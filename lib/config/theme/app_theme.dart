@@ -3,7 +3,11 @@ import 'package:flutter/material.dart';
 const colorList = <Color>[
     Colors.blue,
     Colors.red,
-    Colors.purple
+    Colors.purple,
+    Colors.green,
+    Colors.orange,
+    Colors.pink,
+    Colors.deepPurple,
   ];
 
 class AppTheme {
